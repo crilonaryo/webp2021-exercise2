@@ -1,0 +1,110 @@
+html {
+    background-color: rgb(235, 252, 175);
+
+  }
+
+.first{
+    font-weight: bold;
+  }
+
+p.first{
+    font-weight: bold;
+}
+
+
+.rect {
+    color: burlywood;
+    width: 30em;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 8px 12px;
+    background: blue;
+}
+
+h2 {
+    position: relative;
+    display: inline-block;
+    padding: 1rem 2rem 1rem 4rem;
+    color: #fff;
+    border-radius: 100vh 0 0 100vh;
+    background: rgb(27, 26, 26);
+  }
+  
+  h2:before {
+    position: absolute;
+    top: calc(50% - 7px);
+    left: 10px;
+    width: 14px;
+    height: 14px;
+    content: '';
+    border-radius: 50%;
+    background: #fff;
+  }
+
+  h3 {
+     font-size: 30px;
+     display: inline-block;
+     position: relative;
+     padding: 1.5rem 2rem 1.5rem 160px;
+     border-bottom: 3px solid #000;
+   }
+   
+   h3 span {
+     font-family: 'Teko', sans-serif;
+     font-size: 100px;
+     line-height: 1;
+     position: absolute;
+     bottom: -1.0rem;
+     left: 0;
+   }
+
+   .rabel{
+     font-size: 20px;
+     line-height: 1.5;
+     padding: 0.5em 0;
+   }
+
+   ol {
+    background: #16a339;
+    border-radius :8px;
+    box-shadow :0px 0px 5px silver;
+    padding: 0.5em 0.5em 0.5em 2em;
+  }
+ 
+.lecture{
+    text-align: left;
+    position: relative;
+    padding: 1rem 2rem;
+    border: 3px solid #000;
+    border-radius: 0 10px 10px 10px;
+}
+
+.lecture:before {
+    font-size: 15px;
+    font-size: 1.0rem;
+    position: absolute;
+    top: -24px;
+    left: -3px;
+    height: 24px;
+    padding: 0 1em;
+    content: '要素名';
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    background: #000;
+  }
+
+  p.frame{
+    background: #16a339;
+    border-radius :8px;
+    box-shadow :0px 0px 5px silver;
+    padding: 0.5em 0.5em 0.5em 2em;
+  }
+  
+  .size{
+    width: 48%;
+    height: 150px;
+  }
+
+  a:hover{
+    text-decoration: none;
+  }
